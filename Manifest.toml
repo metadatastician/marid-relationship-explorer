@@ -6,7 +6,7 @@ manifest_format = "2.0"
 
 [[deps.ArangoDB]]
 deps = ["Base64", "Dates", "Sockets"]
-path = "../../packages/ArangoDB"
+path = "../ArangoDB.jl"
 uuid = "719c9fe8-89eb-588d-a237-0159f38ee2e4"
 version = "0.1.0"
 
@@ -18,48 +18,48 @@ deps = ["Printf"]
 uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
 [[deps.MaridCodec]]
-path = "../../packages/MaridCodec"
+path = "../MaridCodec.jl"
 uuid = "eca7d35b-6611-5bf5-a92e-bc308a796804"
 version = "0.1.0"
 
 [[deps.MaridCore]]
 deps = ["Dates", "MaridIR", "UUIDs"]
-path = "../../packages/MaridCore"
+path = "../MaridCore.jl"
 uuid = "e7156291-0549-58db-b616-467193d4b712"
 version = "0.1.0"
 
 [[deps.MaridGraphQL]]
 deps = ["MaridIR"]
-path = "../../packages/MaridGraphQL"
+path = "../MaridGraphQL.jl"
 uuid = "dc948de1-81b6-5b14-aa1c-15a8f36634c8"
 version = "0.1.0"
 
 [[deps.MaridIR]]
-path = "../../packages/MaridIR"
+path = "../MaridIR.jl"
 uuid = "0aa8228c-ae90-54ec-b99f-6e73e9362e55"
 version = "0.1.0"
 
 [[deps.MaridOpenAPI]]
 deps = ["MaridIR"]
-path = "../../packages/MaridOpenAPI"
+path = "../MaridOpenAPI.jl"
 uuid = "d46b8009-b507-5415-bdf2-d181fb662532"
 version = "0.1.0"
 
 [[deps.MaridRPC]]
 deps = ["MaridCore"]
-path = "../../packages/MaridRPC"
+path = "../MaridRPC.jl"
 uuid = "6103e3ce-053f-5ec4-9c2b-ebfa0cc52cf7"
 version = "0.1.0"
 
 [[deps.MaridStorage]]
 deps = ["Dates", "UUIDs"]
-path = "../../packages/MaridStorage"
+path = "../MaridStorage.jl"
 uuid = "2f1b9ad7-f130-5c00-9245-1df50bc1442b"
 version = "0.1.0"
 
 [[deps.MaridTransport]]
 deps = ["Sockets"]
-path = "../../packages/MaridTransport"
+path = "../MaridTransport.jl"
 uuid = "9b56d6cb-8332-56b5-a8cb-605b4eec7468"
 version = "0.1.0"
 
