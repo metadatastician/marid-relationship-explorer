@@ -2,8 +2,8 @@
 // Copyright (c) 2026 Jonathan D.A. Jewell <j.d.a.jewell@open.ac.uk>
 
 import { describe, test, expect } from "bun:test";
-import { MaridClient } from "../../../web/client/src/index.js";
-import { MaridProgressElement } from "../../../web/elements/src/index.js";
+import { MaridClient } from "../../marid-client/src/index.js";
+import { MaridProgressElement } from "../../marid-elements/src/index.js";
 
 describe("Relationship Explorer Frontend Integration", () => {
   test("Shared Web Component initializes correctly", () => {
